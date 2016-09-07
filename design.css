@@ -1,23 +1,41 @@
 * { 
-	background: gray;
 	text-align: center;
+	font-color: black;
+	
 }
 
 .title {
 	font-family:'Bad Script', cursive;
 	font-size: 45px;
     text-align: center;
-	border: solid red 10px;
-	margin-right: 50px;
-	margin-left: 90px;
+	border: solid green 5px;
+	margin-right: 60px;
+	margin-left: 80px;
+	padding-left: 50px;
+    padding-right:50px;
+    position: fixed;
+ 
+
 }
+
+ .people{
+ 	overflow: auto;
+ 	zoom: 1;
+
+ }
 
 
 .person {
-	color: white;
+	color: black;
 	border: solid black 10px;
-
+	
 }
+
+
+.after-box{
+	clear: left;
+}
+
 
 div h3 {
 	font-family:'News Cycle', sans-serif;
@@ -29,18 +47,29 @@ div {
 	font-family: 'Slabo 27px', serif;
 }
 
-@media screen and (min-width:500px) {
-  nav {
+@media screen and (min-width:561px) {
+nav li title {
     float: left;
     width: 25%;
+    background-color: #939393;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
   }
+
+  
   section {
     margin-left: 25%;
   }
 }
-@media screen and (max-width:499px) {
-  nav li {
+@media screen and (max-width:560px) {
+  body {
     display: inline;
+    background-color: #ADD8E6;
+
+    
+
   }
 }
 
